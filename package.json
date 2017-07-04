@@ -1,0 +1,25 @@
+{
+  "name": "markdown-service",
+  "version": "1.0.0",
+  "description": "this update markdown to html demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/music586/markdown-service.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/music586/markdown-service/issues"
+  },
+  "homepage": "https://github.com/music586/markdown-service#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
