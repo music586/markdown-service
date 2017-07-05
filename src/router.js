@@ -8,8 +8,8 @@ router.use(function timeLog(req, res, next){
 });
 
 
-router.get('/', function(req, res){
-	res.send('this is router hone page');
+router.get('/index', function(req, res){
+	res.sendFile(__dirname + '/static/index.html');
 });
 
 router.get('/about', function(req, res){
