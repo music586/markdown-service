@@ -37,7 +37,7 @@ app.post('/file_upload', function(req, res){
   });
 });
 
-fs.watch();
+// fs.watch();
 
 var server = app.listen(3000, function(){
 	var host = server.address().address;
